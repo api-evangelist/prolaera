@@ -1,19 +1,48 @@
 aid: prolaera
 name: Prolaera
-description: Prolaera is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Prolaera is a learning and compliance platform built for modern CPAs and
+  accounting firms, combining automated CPE (Continuing Professional Education)
+  tracking, a learning management system (LMS), and a built-in course library so
+  firms can administer training, monitor license and compliance requirements,
+  and manage professional development in one place. Prolaera merged with LCvista
+  and now operates as "Prolaera by LCvista"; the product is delivered as a
+  hosted SaaS application at app.prolaera.com with SSO/SAML 2.0 identity support
+  and SCORM/AICC/xAPI content compatibility. It is a portfolio company of 500
+  Global. Prolaera does not currently publish a public developer API, developer
+  portal, or machine-readable API specifications.
 url: https://raw.githubusercontent.com/api-evangelist/prolaera/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.lcvista.com/hubfs/lcvista-symbol-round-color.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: Prolaera merged with LCvista; prolaera.com redirects to lcvista.com/prolaera.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Continuing Professional Education
+- CPE
+- Compliance
+- Learning Management System
+- Accounting
+- Professional Development
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://prolaera.com
+- type: SignUp
+  url: https://app.prolaera.com/
+- type: Login
+  url: https://app.prolaera.com/
+- type: Blog
+  url: https://www.lcvista.com/blog
+- type: Support
+  url: https://www.lcvista.com/contact
+- type: PrivacyPolicy
+  url: https://www.lcvista.com/privacy-policy
+- type: TermsOfService
+  url: https://www.lcvista.com/terms-of-use
+- type: DomainSecurity
+  url: security/prolaera-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
