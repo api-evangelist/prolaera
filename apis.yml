@@ -34,6 +34,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://prolaera.com', status: 301, note: 'declared website redirects to https://www.lcvista.com/prolaera — a different registrable domain (prolaera.com -> lcvista.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://www.lcvista.com/hubfs/lcvista-symbol-round-color.png
 x-type: company
 x-source: vc-portfolio
